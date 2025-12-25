@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet"href="/css/cricket.css">
+</head>
+<body>
+ 
+  <h1>bat ball stump game</h1>
+  
+  <button class="but" onclick="       
+   let usermsg='you have chosen bat';
+   let variable=samir();
+ 
+const computer=`computer choise is ${variable}`;
+
+let result=getresult('bat',variable);
+ localStorage.setItem('score',JSON.stringify(scope));
+  document.querySelector('#p').innerText=usermsg;
+   document.querySelector('#o').innerText=computer;
+    document.querySelector('#i').innerText=result;
+document.querySelector('#u').innerText=scope.displayshow();
+  
+  "><img src="images/bat.png"class="image" ></button>
+ 
+
+  <button class="but" onclick="
+  usermsg='you have chosen ball';
+  variable= samir();
+ computer=`computer choise is ${variable}`;
+ 
+ result=getresult('ball',variable);
+
+ localStorage.setItem('score',JSON.stringify(scope));
+
+localStorage.setItem('score',JSON.stringify(scope));
+  document.querySelector('#p').innerText=usermsg;
+   document.querySelector('#o').innerText=computer;
+    document.querySelector('#i').innerText=result;
+document.querySelector('#u').innerText=scope.displayshow();
+
+
+  "> <img src="images/ball.png" class="image"></button>
+  <button class="but" onclick="
+   usermsg='you have chosen stump';
+  variable=samir();
+ computer=`computer choise is ${variable}`;
+ 
+ result=getresult('stump',variable);
+  localStorage.setItem('score',JSON.stringify(scope));
+  localStorage.setItem('score',JSON.stringify(scope));
+  document.querySelector('#p').innerText=usermsg;
+   document.querySelector('#o').innerText=computer;
+    document.querySelector('#i').innerText=result;
+document.querySelector('#u').innerText=scope.displayshow();
+    
+  "
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  ><img src="images/stump.png"class="image"></button>
+ 
+   <h3 id="p"></h3>
+  <h3 id="o"></h3>
+  <h3 id="i"></h3>
+ <h3 id="u"></h3>
+  <button id="re"onclick="window.location.reload();
+  
+  
+  ">
+  <b> reset </b></button>
+  </button>
+  
+  <script src="/script/cricket.js">
+
+  </script>
+  
+</body>
+</html>
